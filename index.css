@@ -29,6 +29,7 @@ a {
   font-size: 16px;
   font-family: "Jost", sans-serif;
   font-weight: 500;
+  border-bottom: 2px solid transparent;
 }
 /*  */
 .head {
@@ -352,7 +353,7 @@ button:hover {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: lighter;
-    padding: 5px;
+    padding: 10px;
   }
 
   a:hover {
@@ -379,7 +380,7 @@ button:hover {
   padding: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .h1-hero {
     font-size: 20px;
   }
@@ -392,5 +393,17 @@ button:hover {
   }
   .img-grid {
     width: 100%;
+  }
+  .div-sub-grid {
+    width: 85%;
+  }
+  .strong-head {
+    font-size: 20px;
+  }
+  .a-head {
+    font-size: 15px;
+  }
+  #delete {
+    font-size: 20px;
   }
 }
