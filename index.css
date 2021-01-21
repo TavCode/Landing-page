@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,200&family=Rubik:wght@500&family=Ubuntu:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Rubik:wght@500&family=Ubuntu:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,300&family=Jost:ital,wght@0,400;0,500;1,200&family=Open+Sans+Condensed:wght@300&family=Roboto+Condensed:wght@300&family=Rubik:wght@500&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+}
+
+/*  */
+.h1-hero {
+  color: white;
+  border: 1px solid white;
+  margin-top: 80px;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: lighter;
+  padding: 32px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+/*  */
+.head {
+  background-image: url(./images/image-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 45px 80px 250px;
+}
+
+.strong-head {
+  color: white;
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+}
+
+/* iterative */
+
+.p-iterative {
+  font-size: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+.p-sub-iterative {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #818181;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+/* creations */
+.div-creations {
+  margin-top: 80px;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #818181;
+  padding: 7px;
+  cursor: pointer;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 4px;
+  font-weight: bold;
+  width: 130px;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.p-creations {
+  font-size: 35px;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 4px;
+}
+
+/* footer */
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.strong-footer {
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+.p-footer {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  color: #818181;
+  font-size: 17px;
+}
+
+.div-footer {
+  margin-top: 40px;
+}
+
+.i {
+  font-size: 30px;
+  width: 25px;
+  height: 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.i-f {
+  font-size: 30px;
+  width: 25px;
+  height: 40px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.i:hover {
+  border-bottom: 2px solid white;
+}
+
+.i-f:hover {
+  border-bottom: 2px solid white;
+}
+
+/* div-deep */
+
+.div-grid {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: center;
+}
+
+.div-sub-grid {
+  position: absolute;
+  width: 230px;
+  height: 430px;
+}
+
+.p-grid {
+  position: relative;
+  top: 350px;
+  color: white;
+  width: 30px;
+  margin: 12px;
+  font-size: 25px;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 4px;
+  margin-top: -10px;
+}
+.p-sub-grid {
+  margin-top: -25px;
+}
+
+.img-grid {
+  width: 230px;
+  height: 430px;
+}
+
+.div-sub-grid:hover {
+  background-color: rgba(212, 203, 203, 0.7);
+}
+
+.div-grid-suparetor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*  */
+
+/*  */
+
+@media screen and (min-width: 1000px) {
+  .h1-hero {
+    width: 320px;
+    margin-left: 300px;
+  }
+  .img-iterative {
+    clip-path: polygon(
+      0 0,
+      15% 0,
+      35% 0%,
+      65% 0%,
+      100% 0,
+      100% 18%,
+      78% 18%,
+      78% 100%,
+      35% 100%,
+      0 100%,
+      0 48%
+    );
+    width: 500px;
+  }
+  .div-iterative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .div-sub-iterative {
+    width: 400px;
+    margin-top: 80px;
+    margin-left: -40px;
+  }
+  .div-creations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    margin-left: 480px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .i {
+    margin-right: 12px;
+  }
+  .i-f {
+    margin-left: 160px;
+    margin-right: 12px;
+  }
+
+  .div-sub-footer {
+    margin-left: -10px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .strong-head {
+    margin-right: 340px;
+  }
+
+  #igual {
+    cursor: pointer;
+    display: none;
+  }
+
+  .div-sub-head {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+  }
+
+  a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid white;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .div-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h1-hero {
+    font-size: 58px;
+  }
+  .head {
+    background-image: url(./movile/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .div-iterative {
+    text-align: center;
+  }
+  .div-sub-iterative {
+    margin-top: 50px;
+    margin: 12px;
+  }
+  .img-iterative {
+    margin-top: 70px;
+    width: 90%;
+  }
+
+  .p-creations {
+    text-align: center;
+  }
+
+  .div-creations-button {
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .i {
+    margin: 10px;
+  }
+  .i-f {
+    margin: 10px;
+  }
+
+  .div-sub-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 22px;
+  }
+  .p-footer {
+    padding-bottom: 30px;
+  }
+
+  #igual {
+    position: absolute;
+    right: 40px;
+    font-size: 35px;
+    top: 50px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #delete {
+    position: absolute;
+    right: 100px;
+    font-size: 35px;
+    top: 60px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .div-sub-head {
+    display: none;
+  }
+
+  .a-head {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 5px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+#delete {
+  display: none;
+}
+.none {
+  display: none;
+}
+
+.inline {
+  display: flex;
+  flex-direction: column;
+}
+
+/*  */
+
+.one-head {
+  background-color: black;
+  padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .h1-hero {
+    font-size: 20px;
+  }
+  .div-hero {
+    margin: auto;
+  }
+
+  #igual {
+    font-size: 20px;
+  }
+  .img-grid {
+    width: 100%;
+  }
+}
